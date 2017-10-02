@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @media screen and (min-width:350px) {
+.header-sticky{
+   width:225px;
+	height:75px;
+}
+}
+ @media screen and (min-width:650px) {
+    
+
+
+.sec1 {
+	margin: 300px auto 0 auto;
+}
+
+#html5, #css3, #jquery, #ps, #php, #flash, #wp {
+	
+	font-size:35px;
+}
+
+.spacer1, .spacer2 {
+	height: 25%;
+	min-height:200px;
+}
+
+.spacer1 img {
+	width:80%;
+}
+
+#sec_portfolio {
+	height: auto;
+}
+
+#sec_contact {
+	height: 115%;
+}
+
+#sec_contact .page-header h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	font-size: 2rem;
+	opacity: .8;
+	
+}
+
+footer {
+	
+}
+
+#footer-logo img {
+	width: 75%;
+}
+}

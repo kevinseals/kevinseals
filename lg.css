@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @media screen and (min-width:850px) {
+#bg-img {
+	background-image: url(images/bg/bg-5.jpg);
+}
+header {
+	
+	width: 30%;
+	
+	height: auto;
+	
+}
+#logo {
+	height: auto;
+	width: 100%;
+	
+}
+
+#logo img {
+	width: 100%;
+   min-width:250px;
+	height:auto;
+	
+}
+#html5, #css3, #jquery, #ps, #php, #flash, #wp {
+	font-size:40px;
+}
+nav#small{
+   display: none;
+}
+#nav-inner{
+   width:600px;
+   height:auto;
+}
+
+nav#large{
+  
+   display:block;
+   width: 600px;
+   height: auto;
+   
+}
+nav#large ul{
+   width: 600px;
+   height:43px;
+}
+nav#large li{
+   display: inline-block;
+   padding: 10px 40px 10px 40px;
+   background-color:rgba(0,0,0,.2);
+   text-align: center;
+   transition: background .3s linear 0s, color .5s linear 0s;
+}
+nav#large li a:hover{
+   
+}
+nav#large li:hover {
+	background-color:rgba(252, 247, 247, 0.37);
+}
+
+#sec_about p:last-child{
+   display:block;
+}
+}
