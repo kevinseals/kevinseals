@@ -24,10 +24,10 @@
                <div id="menu-bar"><img src="images/icons/menu-bar.png"></div>
             </div><!--handle-->
             <ul class="showing">
-               <a href="index.html" target="_self">
+              <a href="index.html" target="_self">
                   <li>home</li>
                </a>
-               <a href="about.html" target="_self">
+               <a href="index.html#about" target="_self">
                   <li>about</li>
                </a>
                <a href="portfolio.html" target="_self">
@@ -36,7 +36,7 @@
                <a href="video.html" target="_self">
                   <li>videos</li>
                </a> 
-               <a href="#contact" target="_self">
+               <a href="index.html#contact" target="_self">
                   <li>contact</li>
                </a>
             </ul><!--showing-->
@@ -48,7 +48,7 @@
                <li><a href="about.html">about</a></li>
                <li><a href="portfolio.html">work</a></li>
                <li><a href="video.html">video</a></li>
-               <li><a href="#contact">contact</a></li> 
+               <li><a href="index.html #contact">contact</a></li> 
             </ul>
          </nav><!--nav-large-->
       </div><!--nav-inner-->
@@ -92,42 +92,20 @@
    </section><!--sec1-->
    
    <!----------------------------------------------sec-about-->
-   
+   <section id="sec_about">
+      <div class="page-header">
+         <h3>About Me</h3>
+      </div><!--page-header-->
+      <div id="about_content">
+         <img src="images/pic_ofme4.jpg" alt="kevin seals">
+   <p>Hi, my name is Kevin Seals and I am Husband, Father and freelance web designer/developer here in the North Dallas area. I specialize in clean design using clean code. I've done a lot of different things in my life but have always been most fulfilled using both my logical and creative sides together to create something that didn't exist before.
+            <p>This site in paticular is straight HTML5, CSS3, Jquery and a smidgin of PHP but most sites are developed using WordPress as my CMS. I specialize in custom Responsive WordPress sites fully optimized for Search Engines(SEO.</p>
+            
+         </div><!--about_content-->
+      </section><!--about-->
    <!----------------------------------------------spacer-->
+   <section class="spacer1"><img src="images/qoute-beatles.png"></section>
    
-   <!----------------------------------------------contact-->
-   <div id="sec_contact">
-      <div class="page-header" id="contact">
-         <h2>Contact Me</h2>
-         <div id="phone-num"><a href="tel:214-436-7558">214.436.7558</a></div>
-          <h2>Email</h2>
-      </div>
-      
-        
-      
-      
-     <!----------------------------------------------contact-form-->
-     
-      <form>
-         <fieldset class="first">
-            <div id="one">
-               <label class="labelone" for="name">Name: </label>
-               <input name="name" />
-               <label for="email">Email: </label>
-               <input name="email" />
-            </div>
-            <div id="two">
-               <label for="message">Message: </label>
-               <textarea name="message"></textarea>
-            </div>
-         </fieldset>
-         <fieldset>
-            <input class="btn" id="submit" name="submit" type="submit" value="Send Email" />
-            <input class="btn" id="reset" name="reset"  type="reset" value="Clear Form" />
-         </fieldset>
-      </form>
-      
-   </div>
    <!----------------------------------------------footer-->
    <footer>
       <div id="footer-icons">
@@ -151,3 +129,4 @@
 <script src="js/general.js"></script>
 
 </html>
+

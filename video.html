@@ -10,13 +10,13 @@
    <link  rel="stylesheet" type="text/css" href="styles.css">
    <link  rel="stylesheet" type="text/css" href="med.css">
    <link  rel="stylesheet" type="text/css" href="lg.css">
-   <link  rel="stylesheet" type="text/css" href="about.css">
 </head>
 
 <body id="body">
    <div id="bg-img"></div>
    <!----------------------------------------------nav-mobile-->
    <div id="wrapper">
+   
    <section id="nav">
       <div id="nav-inner">
          <nav id="small">
@@ -36,7 +36,7 @@
                <a href="video.html" target="_self">
                   <li>videos</li>
                </a> 
-               <a href="#contact" target="_self">
+               <a href="index.html#contact" target="_self">
                   <li>contact</li>
                </a>
             </ul><!--showing-->
@@ -48,88 +48,30 @@
                <li><a href="about.html">about</a></li>
                <li><a href="portfolio.html">work</a></li>
                <li><a href="video.html">video</a></li>
-               <li><a href="#contact">contact</a></li> 
+               <li><a href="index.html#contact">contact</a></li> 
+               
             </ul>
          </nav><!--nav-large-->
       </div><!--nav-inner-->
    </section><!--nav-->
    <!----------------------------------------------header-->
    <header>
-      <div id="logo"><img src="images/logo/logo102.png" width="307" height="119" alt="kevin seals"></div>
+      <div id="logo">
+         <img src="images/logo/logo102.png" width="307" height="119" alt="kevin seals">
+      </div><!--logo-->
    </header>
-   <!----------------------------------------------sec-1-->
-   
-   <section class="sec1">
-      <article id="html5">
-         <p>HTML5</p>
-      </article>
-      <article id="css3">
-         <p>CSS3</p>
-      </article>
-      <article id="ps">
-         <p>PHOTOSHOP</p>
-      </article>
-      <article id="jquery">
-         <p>JQUERY</p>
-      </article>
-      <article id="php">
-         <p>PHP</p>
-      </article>
-      <article id="flash">
-         <p>FLASH</p>
-      </article>
-      <article id="wp">
-         <p>WORDPRESS</p>
-      </article >
-      </section>
-   <!----------------------------------------------serv-list-->
-   <section class="serv-list">
-      <p>E-Commerce</p>
-      <p>Responsive</p>
-      <p>CMS</p>
-      <p>Photography</p>
-      <p>SEO</p>
-   </section><!--sec1-->
-   
-   <!----------------------------------------------sec-about-->
-   
-   <!----------------------------------------------spacer-->
-   
-   <!----------------------------------------------contact-->
-   <div id="sec_contact">
-      <div class="page-header" id="contact">
-         <h2>Contact Me</h2>
-         <div id="phone-num"><a href="tel:214-436-7558">214.436.7558</a></div>
-          <h2>Email</h2>
-      </div>
-      
-        
-      
-      
-     <!----------------------------------------------contact-form-->
-     
-      <form>
-         <fieldset class="first">
-            <div id="one">
-               <label class="labelone" for="name">Name: </label>
-               <input name="name" />
-               <label for="email">Email: </label>
-               <input name="email" />
-            </div>
-            <div id="two">
-               <label for="message">Message: </label>
-               <textarea name="message"></textarea>
-            </div>
-         </fieldset>
-         <fieldset>
-            <input class="btn" id="submit" name="submit" type="submit" value="Send Email" />
-            <input class="btn" id="reset" name="reset"  type="reset" value="Clear Form" />
-         </fieldset>
-      </form>
-      
-   </div>
+   <!----------------------------------------------content-wrap-->
+   <div id="content-wrap">
+      <div id="card-wrap">
+         <div class="card"></div><!--card-->
+         
+         <div id="vid-card-1">
+            
+         </div><!--card-1-->
+      </div><!--card-wrap-->
+   </div><!--content-wrap-->
    <!----------------------------------------------footer-->
-   <footer>
+    <footer>
       <div id="footer-icons">
          <div id="sicon-yt"><a href="https://www.youtube.com/user/krashk42" target="new"><img src="images/icons/yt1.jpg" alt="kevin seals you tube"></a></div>
          <div id="sicon-fb"><a href="https://www.facebook.com/kevin.seals.73" target="new"><img src="images/icons/fb1.jpg" alt="kevin seals facebook"></a></div>
@@ -145,6 +87,7 @@
          <a href="http://www.lenscraftdigital.com/syco3">&copy; SYCOsites.com</a>
       </div><!--syco-link-->
    </div><!--?-->
+    
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

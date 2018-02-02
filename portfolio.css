@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+section#portfolio-wrap{
+   position:relative;
+   width:100%;
+   height:auto;
+   margin-top:325px;
+   
+}
+section#portfolio-wrap #card-wrap{
+   position:relative;
+   width:90%;
+   height:auto;
+   
+   margin:0 auto;
+}
+.card{
+   width:90%;
+   height:300px;
+   background:rgba(255,255,255,.8);
+   margin:10px auto 0 auto;
+   text-align:center;
+   padding-top:20px;
+}
+.port-header h3{
+   font-family:Verdana, Geneva, sans-serif;
+   color:#000;
+   
+}
+.card p{
+   font-family:Verdana, Geneva, sans-serif;
+   font-size:1em;
+   color:#000;
+   
+}
+#card-1{
+   
+}
+.pic{
+   width:100%;
+   margin:0 auto;
+   background-position:center;
+   margin:0 auto 15px auto;
+}
+#card-1 .pic{
+   width:100%;
+   height:175px;
+   background-image: url(images/syco-mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+   
+}
+#card-2 .pic{
+   width:100%;
+   height:175px;
+   background-image: url(images/port-jb.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#card-3 .pic{
+   width:100%;
+   height:175px;
+   background-image: url(images/rd-mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#card-4 .pic{
+   width:100%;
+   height:175px;
+   background-image: url(images/port-jb.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}

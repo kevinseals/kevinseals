@@ -3,8 +3,8 @@
 
  @media screen and (min-width:350px) {
 .header-sticky{
-   width:225px;
-	height:75px;
+   width:125px;
+	height:70px;
 }
 }
  @media screen and (min-width:650px) {
@@ -14,6 +14,9 @@
 .sec1 {
 	margin: 300px auto 0 auto;
 }
+.sec1 article{
+      opacity:.8;
+}
 
 #html5, #css3, #jquery, #ps, #php, #flash, #wp {
 	
@@ -22,7 +25,7 @@
 
 .spacer1, .spacer2 {
 	height: 25%;
-	min-height:200px;
+	
 }
 
 .spacer1 img {

@@ -5,45 +5,40 @@
 #bg-img {
 	background-image: url(images/bg/bg-5.jpg);
 }
+/*------------------------------------------------header */
 header {
-	
-	width: 30%;
-	
-	height: auto;
-	
+   /* [disabled]width: 30%; */
+   height: auto;
 }
 #logo {
 	height: auto;
 	width: 100%;
-	
+   margin-left:100px;
 }
-
 #logo img {
 	width: 100%;
    min-width:250px;
 	height:auto;
-	
 }
+/*------------------------------------------------section1 */
 #html5, #css3, #jquery, #ps, #php, #flash, #wp {
 	font-size:40px;
 }
+/*------------------------------------------------nav */
 nav#small{
    display: none;
 }
 #nav-inner{
-   width:600px;
+   width:800px;
    height:auto;
 }
-
 nav#large{
-  
    display:block;
-   width: 600px;
+   width: 800px;
    height: auto;
-   
 }
 nav#large ul{
-   width: 600px;
+   width: 800px;
    height:43px;
 }
 nav#large li{
@@ -54,13 +49,18 @@ nav#large li{
    transition: background .3s linear 0s, color .5s linear 0s;
 }
 nav#large li a:hover{
-   
 }
 nav#large li:hover {
 	background-color:rgba(252, 247, 247, 0.37);
 }
+.sec1 {
+	margin: 423px auto 0 auto;
+}
 
-#sec_about p:last-child{
-   display:block;
+#card-wrap{
+   
+   width:90%;
+   height:auto;
+   
 }
 }
